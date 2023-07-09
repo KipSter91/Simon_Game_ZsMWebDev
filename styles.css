@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 202, 200),
+    rgb(248, 249, 136),
+    rgb(192, 238, 228));
+}
+
+.copyright {
+  font-family: cursive;
+  font-size: 1rem;
+}
+
+#level-title {
+  font-family: cursive;
+  font-size: 3rem;
+  margin:  5%;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  border: 10px solid black;
+  border-radius: 30% 30% 5% 5%;
+}
+
+.game-over {
+  background-image: linear-gradient(
+    to top,
+    rgb(255, 202, 200),
+    rgb(248, 249, 136),
+    rgb(192, 238, 228));
+}
+
+.a1 {
+  background-color: rgb(214, 19, 85);
+}
+
+.a3 {
+  background-color: rgb(249, 74, 41);
+}
+
+.a2 {
+  background-color: rgb(48, 227, 223);
+}
+
+.a4 {
+  background-color: rgb(252, 226, 42);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
