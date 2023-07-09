@@ -36,10 +36,10 @@ body {
 
 .game-over {
   background-image: linear-gradient(
-    to top,
-    rgb(255, 202, 200),
-    rgb(248, 249, 136),
-    rgb(192, 238, 228));
+    to right,
+    rgb(255, 14, 6),
+    rgb(255, 183, 0),
+    rgb(255, 0, 0));
 }
 
 .a1 {
